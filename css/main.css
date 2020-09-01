@@ -1,0 +1,244 @@
+.padding{
+  padding-bottom: 2rem;
+  padding-top: 1rem
+}
+.light {
+  width: 75%;
+  border-top: 2px solid #b4b4b4;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.card-padding{
+  padding: 0 50px;
+}
+
+/* Navbar  */
+.navbar{
+  padding: 0.1rem;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.6) !important;
+}
+
+.logo-img{
+  width:50%;
+}
+
+.nav-pills li{
+  padding:20px;
+}
+.nav-link{
+  font-size: 1em !important;
+  color:white;
+  padding: .5rem 0.7rem;
+}
+.navbar-brand{
+  margin-right:0;
+}
+/* Carousel  */
+
+.carousel-item{
+
+}
+.carousel-item::after{
+  display: block;
+  position: absolute;
+  background:#000;
+  opacity:0.4;
+  content:"";
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.carousel-caption{
+  position: absolute;
+}
+.carousel-caption .pic-1 {
+  padding: 20px 0;
+  font-size: 150px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h1{
+  padding: 300px 0;
+  font-size: 150px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.btn{
+  font-size:40px;
+  padding: 10px;
+  margin: auto 10px;
+}
+/* Welcome  */
+
+.welcome p{
+  font-size: 1.5rem;
+}
+/* Dog Card  */
+
+.background{
+  background-image: url(https://i.pinimg.com/originals/87/6a/72/876a72f1a3787ea857860c3b0aa87e97.jpg)
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 30px 18px 36px;
+  cursor: pointer;
+}
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-title{
+  font-size: 3rem;
+}
+
+/* Food   */
+#pills-food{
+
+}
+/* Grooming  */
+.g-img{
+  height:94%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .navbar-brand{
+    margin-left:0;
+    margin-right: 0;
+  }
+
+  .nav-pills li{
+    padding:0;
+  }
+
+  .carousel-caption .pic-1 {
+    padding: 40px 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+  .carousel-caption h1{
+    padding: 120px 0;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+  }
+
+  .btn {
+    font-size: 30px;
+    padding: 10px;
+    margin: auto 10px;
+}
+.card-padding{
+  padding: 0 0;
+}
+
+}
+@media screen and (max-width: 768px) {
+.navbar-brand{
+  margin-left:0.5rem;
+  margin-right: 0;
+}
+
+.navbar-toggler{
+  margin-right: 1rem;
+}
+
+
+.nav-pills li{
+  padding:0;
+}
+.carousel-caption .pic-1 {
+  padding: 40px 0;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h1{
+  padding: 100px 0;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin: auto 10px;
+}
+.card-padding{
+  padding: 26px 64px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand{
+    margin-left:1rem;
+    width: 74%;
+  }
+
+
+
+  .carousel-caption .pic-1 {
+      padding: 20px 0;
+      font-size: 40px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 15px #000;
+}
+  .carousel-caption h1{
+      padding: 50px 0;
+      font-size: 40px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 15px #000;
+}
+
+      .btn {
+        font-size: 16px;
+        padding: 8px;
+        margin: auto 10px;
+    }
+
+    .g-img{
+      height:94%;
+    }
+    .card-padding{
+      padding: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+.navbar-brand{
+  width: 74%;
+}
+.carousel-caption .pic-1 {
+    padding: 20px 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.btn {
+    font-size: 13px;
+    padding: 8px;
+    margin: auto 10px;
+}
+
+.card-padding{
+  padding: 10px 0;
+}
+.carousel-caption h1{
+  padding: 50px 0;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+}
