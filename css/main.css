@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 .padding{
   padding-bottom: 2rem;
   padding-top: 1rem
@@ -80,8 +85,13 @@
 /* Dog Card  */
 
 .background{
-  background-image: url(https://i.pinimg.com/originals/87/6a/72/876a72f1a3787ea857860c3b0aa87e97.jpg)
+  }
+
+.mydogs{
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
 }
+
 .card{
     border-radius: 4px;
     background: #fff;
@@ -90,6 +100,15 @@
   padding: 14px 30px 18px 36px;
   cursor: pointer;
 }
+
+
+.nelly-text {
+  display:none;
+}
+.benji-text{
+  display:none;
+}
+
 .card:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
@@ -103,7 +122,7 @@
 
 }
 /* Grooming  */
-.g-img{
+.g-img2{
   height:94%;
 }
 
@@ -206,7 +225,7 @@
         margin: auto 10px;
     }
 
-    .g-img{
+    .g-img2{
       height:94%;
     }
     .card-padding{

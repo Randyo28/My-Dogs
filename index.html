@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
    <body data-spy="scroll" data-target="#navbarResponsive">
       <!--- Nav-bar ----->
       <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <div class=" container-fluid">
+        <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img class="logo-img" src="img/dog-logo-2.png" />
           </a>
@@ -88,18 +89,21 @@
   <div class="container-fluid padding">
     <div class="row welcome text-center padding">
       <div class="col-12">
-        <h2 class="display-3">My Dogs</h2>
+        <h2 class="mydogs display-3">My Dogs</h2>
       </div>
     </div>
   </div>
   <div class="container-fluid padding">
     <div class="row padding">
-      <div class="card-padding col-sm-12 col-md-6 col-lg-6">
-        <div class="card">
+      <div class="benji-div card-padding col-sm-12 col-md-6 col-lg-6">
+        <div class="card benji">
           <img class="card-img-top" src="img/benji-1.jpeg" />
           <div class="card-body">
             <h4 class="card-title text-center"> Benji </h4>
-              <p class="card-text">
+            <div class="text-center">
+            <button type=" button" style="font-size:24px;" class="benji-btn btn btn-primary btn-lg">More Info</button>
+            </div>
+              <p id="ben" class="card-text benji-text padding">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -108,12 +112,15 @@
               </div>
             </div>
           </div>
-          <div class="card-padding col-sm-12 col-md-6 col-lg-6">
-            <div class="card">
+          <div class="nelly-div card-padding col-sm-12 col-md-6 col-lg-6">
+            <div class="card nelly">
               <img class="card-img-top" src="img/nelly-1.jpeg" />
               <div class="card-body">
                 <h4 class="card-title text-center"> Nelly </h4>
-                  <p class="card-text">
+                <div class="text-center">
+                <button type=" button" style="font-size:24px;" class="nelly-btn btn btn-primary btn-lg">More Info</button>
+                </div>
+                  <p id="nels" class="card-text nelly-text padding">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                      enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -127,7 +134,7 @@
       <hr />
       </section>
     <!--- Food Section  ----->
-    <div id="pills-food" class="container-fluid padding">
+    <div id="pills-food" class="bg-light container-fluid padding">
       <div class=" row padding">
         <div class="col-12">
         <h1 class="display-2 padding text-center">Food</h1>
@@ -165,14 +172,14 @@
         </p>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6">
-        <img class="padding" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTt2qtpaa_5x0hFpz9U4GIT2CJnsieYrrclXw&usqp=CAU" />
+        <img class="g-img1 padding" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTt2qtpaa_5x0hFpz9U4GIT2CJnsieYrrclXw&usqp=CAU" />
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6">
-        <img class="g-img padding" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ66h1G3vnYWBrOqrEpJgrLQlzg5hGst7ZQ9w&usqp=CAU" />
+        <img class="g-img2 padding" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ66h1G3vnYWBrOqrEpJgrLQlzg5hGst7ZQ9w&usqp=CAU" />
       </div>
   </div>
 </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"> </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"> </script>
   <script src="js/main.js"></script>
