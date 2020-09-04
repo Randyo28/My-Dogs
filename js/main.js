@@ -16,8 +16,23 @@ $('.benji-btn').on('click', function(){
   $(this).text($(this).text() == 'More Info' ? 'Less Info' : 'More Info');
 });
 
+$(window).on('resize', function() {
+  var win = $(this);
+  if (win.width() < 376) {
+    $('.grooming-title').addClass('display-4');
+
+  } else {
+    $('.grooming-title').removeClass('display-4');
+
+  }
+});
+
+
+
 
 });
+
+                        //ScrollReveal//
 
 ScrollReveal().reveal('.navbar-brand',{ duration: 3000, origin:'left', distance: '200px' });
 
