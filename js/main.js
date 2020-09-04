@@ -40,6 +40,8 @@ ScrollReveal().reveal('#myTab',{ duration: 3000, origin:'right', distance: '200p
 
 ScrollReveal().reveal('#pills-about',{ duration: 2500, origin:'bottom', distance: '200px' });
 
+ScrollReveal().reveal('.background',{ duration: 2500, origin:'bottom', distance: '200px' });
+
 ScrollReveal().reveal('.nelly-div',{ duration: 2500, origin:'right', distance: '100px' });
 
 ScrollReveal().reveal('.benji-div',{ duration: 2500, origin:'left', distance: '100px' });
