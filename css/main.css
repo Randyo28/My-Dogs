@@ -78,6 +78,9 @@ html{
   margin: auto 10px;
 }
 /* Welcome  */
+.about-title{
+  text-transform: uppercase;
+}
 
 .welcome p{
   font-size: 1.5rem;
@@ -89,7 +92,6 @@ html{
 
 .mydogs{
   text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
 }
 
 .card{
@@ -119,9 +121,15 @@ html{
 
 /* Food   */
 #pills-food{
+}
 
+.food-title{
+  text-transform: uppercase;
 }
 /* Grooming  */
+.grooming-title{
+  text-transform: uppercase;
+}
 .g-img2{
   height:94%;
 }
@@ -248,6 +256,10 @@ html{
     font-size: 13px;
     padding: 8px;
     margin: auto 10px;
+}
+.card:hover{
+     transform: scale(1);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .card-padding{
