@@ -1,7 +1,12 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
+/* .w-100 {
+  width: 100% !important;
+  height: 75vh;
+} */
 
 .padding{
   padding-bottom: 2rem;
@@ -40,43 +45,33 @@ html{
 .navbar-brand{
   margin-right:0;
 }
-/* Carousel  */
-
-.carousel-item{
-
+/* Hero  */
+.pets{
+  border-radius: 89px 14px 2px 85px;
+  -moz-border-radius: 89px 14px 2px 85px;
+  -webkit-border-radius: 89px 14px 2px 85px;
+  border: 0px solid #000000;
+  position: relative;
+  background: rgba(0,0,0,0.6);
 }
-.carousel-item::after{
-  display: block;
+}
+
+
+
+/* .pet-container:before{
+  content: '';
+  border-radius: 89px 14px 2px 85px;
+  -moz-border-radius: 89px 14px 2px 85px;
+  -webkit-border-radius: 89px 14px 2px 85px;
+  top: 0;
+  left: 14px;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  background:#000;
-  opacity:0.4;
-  content:"";
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-.carousel-caption{
-  position: absolute;
-}
-.carousel-caption .pic-1 {
-  padding: 20px 0;
-  font-size: 150px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
-}
-.carousel-caption h1{
-  padding: 300px 0;
-  font-size: 150px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
-}
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+} */
 
-.btn{
-  font-size:40px;
-  padding: 10px;
-  margin: auto 10px;
-}
 /* Welcome  */
 .about-title{
   text-transform: uppercase;
