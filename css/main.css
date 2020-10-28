@@ -240,7 +240,9 @@ html{
   html{
     overflow-x: hidden;
   }
-
+  body{
+    overflow-x: hidden;
+}
   .mobile{
     height:auto !important;
   }
