@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
@@ -42,9 +43,12 @@ html{
 }
 /* Carousel  */
 
-.carousel-item{
-
-}
+/* .carousel-inner > .item {
+  height: 700px;
+} */
+/* .carousel-inner img {
+  height: 100vh;
+} */
 .carousel-item::after{
   display: block;
   position: absolute;
@@ -243,7 +247,14 @@ html{
 }
 
 @media screen and (max-width: 375px) {
-.navbar-brand{
+  html{
+    overflow-x: hidden;
+  }
+
+  .mobile{
+    height:auto !important;
+  }
+  .navbar-brand{
   width: 74%;
 }
 .carousel-caption .pic-1 {
