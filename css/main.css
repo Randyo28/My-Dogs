@@ -238,7 +238,14 @@ html{
 }
 
 @media screen and (max-width: 375px) {
-.navbar-brand{
+  html{
+    overflow-x: hidden;
+  }
+
+  .mobile{
+    height:auto !important;
+  }
+  .navbar-brand{
   width: 74%;
 }
 .carousel-caption .pic-1 {
