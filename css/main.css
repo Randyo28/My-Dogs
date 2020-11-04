@@ -238,11 +238,11 @@ html{
 
 @media screen and (max-width: 375px) {
   html{
-    overflow-x: hidden;
+    width: fit-content;
   }
-  body{
-    overflow-x: hidden;
-}
+  /* body{
+    /* overflow-x: hidden; */
+} */
   .mobile{
     height:auto !important;
   }
