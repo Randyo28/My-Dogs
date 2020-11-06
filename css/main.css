@@ -238,17 +238,17 @@ html{
 
 @media screen and (max-width: 375px) {
   html{
-    width: fit-content;
+    overflow:inherit !important;
   }
-  /* body{
-    /* overflow-x: hidden; */
-} */
+  body{
+    width: fit-content;
+}
   .mobile{
     height:auto !important;
   }
-  .navbar-brand{
+  /* .navbar-brand{
   width: 74%;
-}
+} */
 .carousel-caption .pic-1 {
     padding: 20px 0;
     font-size: 32px;
